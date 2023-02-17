@@ -33,7 +33,9 @@ public class Main {
                 try {
                     enable.write("ya.ru");
                     enable.println();
-                    enable.write("youtube.com");
+                    enable.write("https://youtube.com");
+                    System.out.println();
+                    enable.write("yandex.ru");
                     enable.close();
                 } catch (Exception e) {
                     throw new RuntimeException(e);
